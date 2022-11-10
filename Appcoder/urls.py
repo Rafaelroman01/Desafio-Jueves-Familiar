@@ -1,8 +1,8 @@
 from django.urls import path
-from Appcoder.views import mostrar_Familiares
+from Appcoder.views import mostrar_familiares
 
 urlpatterns = [
-    path("familiares/", mostrar_Familiares)
+    path("familiares/", mostrar_familiares)
     
 ]
  
