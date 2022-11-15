@@ -55,7 +55,7 @@ ROOT_URLCONF = 'familiajueves.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/Familia/Documents/desafiojueves/familiajueves/Appcoder/template"],
+        'DIRS': [r"C:/Users/Familia/Documents/desafiojueves/familiajueves/Appcoder/template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
